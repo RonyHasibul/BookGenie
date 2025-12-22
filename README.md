@@ -37,11 +37,11 @@
 
 1. **Clone the repository:**
    ```bash
-   𝙜𝙞𝙩 𝙘𝙡𝙤𝙣𝙚 𝙝𝙩𝙩𝙥𝙨://𝙜𝙞𝙩𝙝𝙪𝙗.𝙘𝙤𝙢/𝙍𝙤𝙣𝙮𝙃𝙖𝙨𝙞𝙗𝙪𝙡/𝘽𝙤𝙤𝙠𝙂𝙚𝙣𝙞𝙚.𝙜𝙞𝙩
+   git clone https://github.com/RonyHasibul/BookGenie.git
 
 2. **Install dependencies:**
    ```bash
-   𝙥𝙞𝙥 𝙞𝙣𝙨𝙩𝙖𝙡𝙡 -𝙧 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙢𝙚𝙣𝙩𝙨.𝙩𝙭𝙩
+   pip install -r requirements.txt 
 
 3. **Setup Database:**
     * Ensure your **XAMPP/MySQL** server is running.
@@ -49,4 +49,4 @@
 
 4. **Launch the app:**
    ```bash
-   𝙥𝙮𝙩𝙝𝙤𝙣 𝙖𝙥𝙥.𝙥𝙮
+   python app.py
